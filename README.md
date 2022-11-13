@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Food Demo  can be [viewed online here](https://6370e4c642049a3f44369c28--remarkable-malasada-c2da62.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+An application that displays a front-end of a food site created using React,Tailwind.css
 
-In the project directory, you can run:
+## Installation and Setup Instructions
+*Clone down this repository. You will need `node` and `npm` installed globally on your machine.*  
+Installation:
 
-### `npm start`
+`npm install`  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To Run Test Suite:  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`npm test`  
 
-### `npm test`
+To Start Server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm start`  
 
-### `npm run build`
+To Visit App:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`localhost:3000/ideas` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Style:
+I made style in each component
+```
+// Hello Start
+{
+  
+  <div className="// Style..."> </div>
+}
+// Hello End
+```
+remember to search with the component name for easy access
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Images
 
-### `npm run eject`
+**website look**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Website Look](https://user-images.githubusercontent.com/65420004/180659905-25df4a63-6f62-4a09-85a5-86803d7796b2.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Added packages
+- npm install -D tailwindcss
+- npx tailwindcss init
+- npm i react-icons
